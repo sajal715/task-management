@@ -11,25 +11,37 @@ html, body {
     display: flex;
     flex-direction: column;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
 /* Header */
 header {
-    background-color: #333;
-    color: white;
+    background-color:#91989e;;
+    color: rgb(0, 0, 0);
     padding: 15px 0;
 }
 html {
     scroll-behavior: smooth;
 }
 
+.bg-img{
+    background-image: url('background.jpg'); /* Replace with your image path */
+    background-size: cover; /* Makes the image cover the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
 .container {
+ 
     width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.txt{
+color: rgb(0, 0, 0);
 }
 
 /* Navigation */
@@ -47,25 +59,27 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff6347;
+    color: #ffffff;
 }
 
 .login-btn {
-    background-color: #ff6347;
+    background-color:#3366FF;
     padding: 8px 16px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .login-btn:hover {
-    background-color: #ff4500;
+    background-color:  #2746a3;
 }
 
 /* Main Section */
 .main-section {
-    background-color: #fff;
+    
+    background-color:#ffffff;;
     padding: 60px 20px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .main-section h2 {
@@ -81,69 +95,25 @@ nav ul li a:hover {
 }
 
 .btn {
-    background-color: #4CAF50;
+    background-color: #3366FF;
     color: white;
     padding: 12px 24px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #45a049;
+    background-color: #2746a3;
 }
 
-/* Task Container */
-.task-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-}
-
-.task-card {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    padding: 20px;
-    width: 300px;
-    margin: 16px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.task-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-
-.task-title {
-    font-size: 18px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.task-details {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 20px;
-}
-
-/* Task Button */
-.task-action-btn {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.task-action-btn:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
+.p-section{
+    margin-top: 20px;
+    margin-bottom: auto;
+    padding-bottom: 269px;
+    
+    
 }
 
 /* Footer */
@@ -172,3 +142,4 @@ footer {
         width: 90%;
     }
 }
+

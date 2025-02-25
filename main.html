@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">TaskMaster</h1>
+            <nav>
+                <ul>
+                    <li><a href="frontpage.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html" class="login-btn">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="task-card">
+        <h3 class="task-title">Task : Update Website</h3>
+        <p class="task-details">Make improvements to the homepage based on client feedback.</p>
+        <button class="task-action-btn">Mark as Completed</button>
+    </div>
+    
+    <!-- Add Task Button -->
+<button id="addTaskBtn" class="button">+</button>
+
+<!-- Task Form (Initially Hidden) -->
+<div id="task-form-container" class="task-form-container" style="display: none;">
+    <h3>Add a New Task</h3>
+    <input type="text" id="task-title" placeholder="Task Title">
+    <textarea id="task-desc" placeholder="Task Description"></textarea>
+    <button id="save-task-btn">Add Task</button>
+    <button id="cancel-task-btn">Cancel</button>
+</div>
+    
+</body>
+</html>
