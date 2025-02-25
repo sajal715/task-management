@@ -1,0 +1,104 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height for center alignment */
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* Form Container */
+main {
+    width: 100%;
+    max-width: 480px; /* Form width */
+    padding: 24px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px; /* Adjust for spacing at the top */
+}
+
+/* Form Styling */
+form {
+    padding: 16px;
+}
+
+/* Heading and Description */
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px; /* Add space below the legend */
+}
+
+p {
+    text-align: center;
+    margin-bottom: 16px; /* Add space below the description */
+}
+
+/* Label Styling */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px; /* Adjust margin to reduce space */
+    color: #333;
+}
+
+/* Input and Select Fields */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px; /* Reduced margin between input fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-login:hover {
+    background-color: #45a049;
+    box-shadow: 0 4px 8px rgba(76, 68, 209, 0.4);
+}
+
+/* Link to Login */
+.abc {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.abc a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.abc a:hover {
+    text-decoration: underline;
+}
+    
