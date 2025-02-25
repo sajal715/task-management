@@ -1,8 +1,8 @@
 /* General Body Styles */
 body {
+    
     font-family: 'Arial', sans-serif;
-    background-color: #000000; /* Light gray background */
-    margin: 0;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,6 +13,7 @@ html {
 }
 
 .login-container {
+    margin-left: 400px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -101,3 +102,9 @@ input:focus {
 .btn-create-account:hover {
     text-decoration: underline;
 }
+
+.leftside{
+    margin-bottom: 550px;
+    width: 200px; /* Set width */
+    height: 200px; /* Set height */
+    margin-right: 100px;
